@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: Arial, sans-serif;
+      background-color: #ab8888;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: #f9c9d1;
+      padding: 10px;
+      text-align: center;
+    }
+
+    header nav a {
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 10px;
+    }
+
+    header nav a:visited {
+      color: black;
+    }
+
+    header nav a:hover {
+      color: #555;
+    }
+
+    .content {
+      flex: 1;
+      padding: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .card {
+      width: 200px;
+      text-align: center;
+    }
+
+    .card img {
+      width: 200px;
+      height: auto;
+    }
+
+    .card p {
+      margin-top: 10px;
+      font-size: 20px;
+    }
+
+    footer {
+      background-color: #f9c9d1;
+      text-align: center;
+      padding: 17px 0;
+    }
+
+    footer a {
+      color: black;
+      text-decoration: none;
+      font-size: 20px;
+      margin: 0 15px;
+      transition: color 0.3s ease;
+    }
+
+    footer a:hover {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Tentang Saya</a>
+      <a href="hardskill.html">Hard Skill</a>
+      <a href="soft skill.html">Soft Skill</a>
+      <a href="sertifikat.html">Sertifikat</a>
+    </nav> 
+  </header>
+
+  <div class="content">
+    <div class="card">
+      <img src="pweb foto.webp" alt="fortinet1">
+      <p>Membuat website<br>berbasis HTML dan CSS</p>
+    </div>
+    <div class="card">
+      <img src="mikrotik foto.png" alt="Mikrotik">
+      <p>Blokir situs, basic configuration hotspot,<br>praktik l2tp, pppoe, routing type, qos</p>
+    </div>
+    <div class="card">
+      <img src="debian foto.png" alt="Debian">
+      <p>Basic command line, ssh, web server with apache2, file sharing, wordpress</p>
+    </div>
+    <div class="card">
+      <img src="infra.png" alt="Fiber Optic">
+      <p>Pembuatan dan konfigurasi kabel Fiber Optik (FO) serta kabel LAN</p>
+    </div>
+  </div>
+
+  <footer>
+    <a href="https://maps.app.goo.gl/e1qcpNvupTJXQnvz5" target="_blank"><i class="fas fa-map-marker-alt"></i></a>
+    <a href="https://www.instagram.com/d1taa_?igsh=Ynl0MW9ldngwYTE5" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://wa.me/qr/HAQMFA2SAJCOG1" target="_blank"><i class="fab fa-whatsapp"></i></a>
+  </footer>
+</body>
+</html>
